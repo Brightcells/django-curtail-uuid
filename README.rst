@@ -17,7 +17,7 @@ Usage
 
     from account.models import LensmanInfo
 
-    from curtail_uuid import CurtailUUID
+    from django_curtail_uuid import CurtailUUID
 
     CurtailUUID.uuid(LensmanInfo, field='lensman_id', length=7)
 

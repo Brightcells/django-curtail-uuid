@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import with_statement
+
 from setuptools import setup
 
 
@@ -18,7 +19,7 @@ setup(
     author='Hackathon',
     author_email='kimi.huang@brightcells.com',
 
-    py_modules=['curtail_uuid'],
+    py_modules=['django_curtail_uuid'],
     install_requires=[],
 
     classifiers=[

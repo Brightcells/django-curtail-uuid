@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from django.conf import settings
-
 import shortuuid
+from django.conf import settings
 
 
 class _CurtailUUID:
@@ -20,5 +19,4 @@ class _CurtailUUID:
         return uuid
 
 
-# For backwards compatibility
 CurtailUUID = _CurtailUUID()

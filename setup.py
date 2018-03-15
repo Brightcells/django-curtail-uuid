@@ -11,7 +11,7 @@ setup(
     name='django-curtail-uuid',
     version=version,
     keywords='django-curtail-uuid',
-    description="Curtail UUID Appointed Length",
+    description='Curtail UUID Appointed Length',
     long_description=open('README.rst').read(),
 
     url='https://github.com/Brightcells/django-curtail-uuid',
@@ -19,8 +19,9 @@ setup(
     author='Hackathon',
     author_email='kimi.huang@brightcells.com',
 
-    py_modules=['django_curtail_uuid'],
-    install_requires=[],
+    packages=['django_curtail_uuid'],
+    py_modules=[],
+    install_requires=['shortuuid'],
 
     classifiers=[
         'Development Status :: 5 - Production/Stable',

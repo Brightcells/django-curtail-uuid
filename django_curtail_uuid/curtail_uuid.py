@@ -20,3 +20,4 @@ class _CurtailUUID:
 
 
 CurtailUUID = _CurtailUUID()
+uuid = CurtailUUID.uuid
